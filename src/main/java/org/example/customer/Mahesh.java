@@ -9,10 +9,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Mahesh {
+
     private BakeryItem item;
 
     @Autowired
-    @Qualifier("ChickenBun")
+    @Qualifier("ChickenRoll")
     @FinalAnnotation
     public void setItem(BakeryItem item) {
         this.item = item;
